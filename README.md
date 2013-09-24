@@ -3,6 +3,8 @@ libaddressinput
 
 fork of google's libaddressinput with the android bits ripped out and the address formatter exposed
 
+violently ripped from https://code.google.com/p/libaddressinput/ to remove all android dependencies and expose the address formatter
+
 
       import com.android.i18n.addressinput._
 
