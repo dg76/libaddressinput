@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/127/trunk/java/testlibs
+END
+json-20090211.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/127/trunk/java/testlibs/json-20090211.jar
+END
+httpcore-4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/127/trunk/java/testlibs/httpcore-4.1.jar
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/127/trunk/java/testlibs/commons-logging-1.1.1.jar
+END
+httpclient-4.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/127/trunk/java/testlibs/httpclient-4.1.1.jar
+END

@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/137/trunk/java/src/com/android/i18n/addressinput
+END
+StandardAddressVerifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/131/trunk/java/src/com/android/i18n/addressinput/StandardAddressVerifier.java
+END
+AddressUIComponent.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/133/trunk/java/src/com/android/i18n/addressinput/AddressUIComponent.java
+END
+FormController.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/131/trunk/java/src/com/android/i18n/addressinput/FormController.java
+END
+SimpleClientCacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/131/trunk/java/src/com/android/i18n/addressinput/SimpleClientCacheManager.java
+END
+AddressProblemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/124/trunk/java/src/com/android/i18n/addressinput/AddressProblemType.java
+END
+ClientData.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/131/trunk/java/src/com/android/i18n/addressinput/ClientData.java
+END
+JsonpRequestBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/131/trunk/java/src/com/android/i18n/addressinput/JsonpRequestBuilder.java
+END
+RegionDataConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/137/trunk/java/src/com/android/i18n/addressinput/RegionDataConstants.java
+END
+NotifyingListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/131/trunk/java/src/com/android/i18n/addressinput/NotifyingListener.java
+END
+FormatInterpreter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/131/trunk/java/src/com/android/i18n/addressinput/FormatInterpreter.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/124/trunk/java/src/com/android/i18n/addressinput/Util.java
+END
+RegionData.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/124/trunk/java/src/com/android/i18n/addressinput/RegionData.java
+END
+FieldVerifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/131/trunk/java/src/com/android/i18n/addressinput/FieldVerifier.java
+END
+AddressData.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/124/trunk/java/src/com/android/i18n/addressinput/AddressData.java
+END
+DataLoadListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/124/trunk/java/src/com/android/i18n/addressinput/DataLoadListener.java
+END
+FormOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/124/trunk/java/src/com/android/i18n/addressinput/FormOptions.java
+END
+StandardChecks.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/124/trunk/java/src/com/android/i18n/addressinput/StandardChecks.java
+END
+LookupKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/131/trunk/java/src/com/android/i18n/addressinput/LookupKey.java
+END
+AddressVerificationData.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/131/trunk/java/src/com/android/i18n/addressinput/AddressVerificationData.java
+END
+AddressVerificationNodeData.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/124/trunk/java/src/com/android/i18n/addressinput/AddressVerificationNodeData.java
+END
+AddressDataKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/124/trunk/java/src/com/android/i18n/addressinput/AddressDataKey.java
+END
+AddressWidget.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/135/trunk/java/src/com/android/i18n/addressinput/AddressWidget.java
+END
+AddressProblems.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/131/trunk/java/src/com/android/i18n/addressinput/AddressProblems.java
+END
+JsoMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/131/trunk/java/src/com/android/i18n/addressinput/JsoMap.java
+END
+AddressField.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/124/trunk/java/src/com/android/i18n/addressinput/AddressField.java
+END
+DataSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/124/trunk/java/src/com/android/i18n/addressinput/DataSource.java
+END
+CacheData.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/131/trunk/java/src/com/android/i18n/addressinput/CacheData.java
+END
+ClientCacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/124/trunk/java/src/com/android/i18n/addressinput/ClientCacheManager.java
+END
