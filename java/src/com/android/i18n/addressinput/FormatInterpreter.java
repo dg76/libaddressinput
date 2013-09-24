@@ -144,6 +144,10 @@ public class FormatInterpreter {
      * removing redundant spaces and empty lines.
      */
     public List<String> getEnvelopeAddress(AddressData address) {
+        getEnvelopeAddress(address, false);
+    }
+
+    public List<String> getEnvelopeAddress(AddressData address, Boolean forceLatin) {
         Util.checkNotNull(address, "null input address not allowed");
         String regionCode = address.getPostalCountry();
 
@@ -151,6 +155,9 @@ public class FormatInterpreter {
         ScriptType scriptType = ScriptType.LOCAL;
         if (lc != null) {
             scriptType = Util.isExplicitLatinScript(lc) ? ScriptType.LATIN : ScriptType.LOCAL;
+        }
+        if (forceLatin) {
+            scriptType = ScriptType.LATIN;
         }
 
         List<String> lines = new ArrayList<String>();

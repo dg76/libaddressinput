@@ -47,3 +47,28 @@ violently ripped from https://code.google.com/p/libaddressinput/ to remove all a
                                                     .build())
       formatInterpreter.getEnvelopeAddress(TW_ADDRESS2)
       // res5: java.util.List[String] = [Mr. Liu, Giant Bike Store, Sec. 3 Hsin-yi Rd., 大安區, 台北市 106]
+
+    val verifier = new StandardAddressVerifier(new FieldVerifier(new LocalDataSource()))
+    val problems = new AddressProblems()
+    verifier.verify(TW_ADDRESS2, problems)
+
+       val BR_ADDRESS = (new AddressData.Builder().setCountry("BR")
+                                             .setAdminArea("Brazil doesn't really use")
+                                              .setLocality("Rio De Janeiro")
+                                              .setAddressLine1("Rua Gal Urquisa 71")
+                                              .setPostalCode("22431-040")
+                                              .build())
+        verifier.verify(BR_ADDRESS, problems)
+         println(problems)
+         // {ADMIN_AREA=UNKNOWN_VALUE}
+        val fixedAddressBuilder = new AddressData.Builder(BR_ADDRESS)
+        formatInterpreter.getEnvelopeAddress(BR_ADDRESS)
+        problems.getProblems
+        import scala.collection.JavaConversions._
+        problems.getProblems.foreach({case (field, problem) => { fixedAddressBuilder.set(field, null) }})
+        formatInterpreter.getEnvelopeAddress(fixedAddressBuilder.build())
+// res25: java.util.List[String] = [Rua Gal Urquisa 71, Rio De Janeiro-, 22431-040]
+// groan, why does it include the "-"?
+     formatInterpreter.getEnvelopeAddress(fixedAddressBuilder.build(), true)
+// res26: java.util.List[String] = [Rua Gal Urquisa 71, Rio De Janeiro]
+// groan, why does forcing lating script cut off the postcode?

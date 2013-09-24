@@ -28,7 +28,7 @@ import java.util.EnumMap;
 public class LocalDataSource implements DataSource {
     private static final String DATA_PATH = "/countryinfo.txt";
 
-    private LocalDataSource() {
+    public LocalDataSource() {
     }
 
     public static final Map<String, String> DATA;
