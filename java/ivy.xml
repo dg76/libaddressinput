@@ -1,0 +1,6 @@
+<ivy-module version="0.1">
+<info organisation="com.google" module="libaddressinput"/>
+<dependencies>
+<dependency org="org.json" name="json" rev="20090211"/>
+</dependencies>
+</ivy-module>
