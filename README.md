@@ -8,7 +8,7 @@ import com.android.i18n.addressinput._
 
 val formatInterpreter = new FormatInterpreter(new FormOptions.Builder().build());
 
-val    US_CA_ADDRESS = (new AddressData.Builder().setCountry("US")
+       val    US_CA_ADDRESS = (new AddressData.Builder().setCountry("US")
                                                  .setAdminArea("CA")
                                                  .setLocality("Mt View")
                                                  .setAddressLine1("1098 Alta Ave")
