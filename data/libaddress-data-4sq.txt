@@ -6727,7 +6727,8 @@
       "YT"
     ],
     "upper": "ACNOSZ",
-    "zip": "[ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJ-NPRSTV-Z][ ]?\\d[ABCEGHJ-NPRSTV-Z]\\d"
+    "zip": "([ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJ-NPRSTV-Z])[ ]?(\\d[ABCEGHJ-NPRSTV-Z]\\d)",
+    "zip_output_fmt": "$1 $2"
   },
   {
     "abbr": "AB",
@@ -9402,7 +9403,7 @@
     "require": "ACZ",
     "state_name_type": "county",
     "upper": "CZ",
-    "zip": "GIR[ ]?0AA|((AB|AL|B|BA|BB|BD|BH|BL|BN|BR|BS|BT|BX|CA|CB|CF|CH|CM|CO|CR|CT|CV|CW|DA|DD|DE|DG|DH|DL|DN|DT|DY|E|EC|EH|EN|EX|FK|FY|G|GL|GY|GU|HA|HD|HG|HP|HR|HS|HU|HX|IG|IM|IP|IV|JE|KA|KT|KW|KY|L|LA|LD|LE|LL|LN|LS|LU|M|ME|MK|ML|N|NE|NG|NN|NP|NR|NW|OL|OX|PA|PE|PH|PL|PO|PR|RG|RH|RM|S|SA|SE|SG|SK|SL|SM|SN|SO|SP|SR|SS|ST|SW|SY|TA|TD|TF|TN|TQ|TR|TS|TW|UB|W|WA|WC|WD|WF|WN|WR|WS|WV|YO|ZE)(\\d[\\dA-Z]?[ ]?\\d[ABD-HJLN-UW-Z]{2}))|BFPO[ ]?\\d{1,4}"
+    "zip": "(GIR 0AA)|((([A-Z-[QVX]][0-9][0-9]?)|(([A-Z-[QVX]][A-Z-[IJZ]][0-9][0-9]?)|(([A-Z-[QVX]][0-9][A-HJKSTUW])|([A-Z-[QVX]][A-Z-[IJZ]][0-9][ABEHMNPRVWXY])))) [0-9][A-Z-[CIKMOV]]{2})"
   },
   {
     "abbr": "GD",
@@ -11483,7 +11484,8 @@
       "\u6c96\u7e04\u770c"
     ],
     "upper": "S",
-    "zip": "\\d{3}-?\\d{4}"
+    "zip": "(\\d{3})-?(\\d{4})",
+    "zip_output_fmt": "$1-$2"
   },
   {
     "id": "JP/\u5317\u6d77\u9053",
@@ -12173,7 +12175,7 @@
   },
   {
     "abbr": "LK",
-    "fmt": "{NAME}\n{ORGANIZATION}\n{STREET_ADDRESS}\n{CITY}\n{POSTAL_CODE}",
+    "fmt": "{NAME}\n{ORGANIZATION}\n{STREET_ADDRESS}\n{CITY} {POSTAL_CODE}",
     "id": "LK",
     "name": "Sri Lanka",
     "posturl": "http://www.slpost.gov.lk/",
@@ -12218,7 +12220,8 @@
     "id": "LV",
     "name": "Latvia",
     "posturl": "http://www.pasts.lv/lv/uzzinas/nodalas/",
-    "zip": "LV-\\d{4}"
+    "zip": "LV[- ]?(\\d{4})",
+    "zip_output_format": "LV-$1"
   },
   {
     "abbr": "LY",
@@ -13491,6 +13494,7 @@
       "en"
     ],
     "name": "Philippines",
+    "state_name_type": "county",
     "posturl": "http://www.philpost.gov.ph/",
     "sub_keys": [
       "Abra",
@@ -14200,7 +14204,7 @@
     "name": "Portugal",
     "posturl": "http://www.ctt.pt/feapl_2/app/open/tools.jspx?tool=1",
     "require": "ACZ",
-    "zip": "\\d{4}-\\d{3}"
+    "zip": "\\d{4}(-\\d{3})?"
   },
   {
     "abbr": "PW",
@@ -14252,7 +14256,7 @@
     "id": "RS",
     "name": "Republic Of Serbia",
     "posturl": "http://www.posta.rs/struktura/lat/aplikacije/pronadji/nadji-postu.asp",
-    "zip": "\\d{6}"
+    "zip": "\\d{5}"
   },
   {
     "abbr": "RU",
@@ -14298,7 +14302,8 @@
     "postprefix": "SE-",
     "posturl": "http://www.posten.se/sv/Kundservice/Sidor/Sok-postnummer-resultat.aspx",
     "require": "ACZ",
-    "zip": "\\d{3}[ ]?\\d{2}"
+    "zip": "(\\d{3})[ ]?(\\d{2})",
+    "zip_output_fmt": "$1 $2"
   },
   {
     "abbr": "SG",
@@ -14341,7 +14346,8 @@
     "id": "SK",
     "name": "Slovakia",
     "posturl": "http://psc.posta.sk",
-    "zip": "\\d{3}[ ]?\\d{2}"
+    "zip": "(\\d{3}) ?(\\d{2})",
+    "zip_output_fmt": "$1 $2"
   },
   {
     "abbr": "SL",
