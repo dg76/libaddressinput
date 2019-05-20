@@ -144,7 +144,7 @@ public class FormatInterpreter {
      * removing redundant spaces and empty lines.
      */
     public List<String> getEnvelopeAddress(AddressData address) {
-        getEnvelopeAddress(address, false);
+        return getEnvelopeAddress(address, false);
     }
 
     public List<String> getEnvelopeAddress(AddressData address, Boolean forceLatin) {
