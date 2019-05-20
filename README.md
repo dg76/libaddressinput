@@ -1,8 +1,8 @@
 libaddressinput
 ===============
 
-This is a fork of a fork of google's [libaddressinput](https://github.com/googlei18n/libaddressinput) without Android dependencies and with the address formatter exposed. The original
-project used Scala whereas this is a pure Java project that can be compiled using Maven.
+This is a fork of a fork of Google's [libaddressinput](https://github.com/googlei18n/libaddressinput) without Android dependencies and with the address formatter exposed. The original
+project used Scala whereas this is a pure **Java** project that can be compiled using **Maven**.
 
 To get the lines of an address just use this code:
 
